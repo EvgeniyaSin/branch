@@ -13,6 +13,7 @@ def count(some_list):
 
 
 def check_age(age):
+    """Check age"""
     if age < 18:
         return False
     else:
